@@ -1,1 +1,11 @@
-Hi Hello
+Git commands:
+
+to access your git account:
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git config - to know git configuration details
+git clone "repo url"
+git status -  to check what changes are done
+git add "file name" or . to add all files'
+git commit -m "message"
+git push 

@@ -1,0 +1,73 @@
+git --version
+
+git config
+
+git config --global user.name "[name]"
+
+git config --global user.email"[email]"
+
+git init
+
+git status
+
+git add
+
+git add -A
+
+git add .
+
+git add *
+
+git add <filename>
+
+git add <directory>
+
+git diff;
+
+git rm --cached -f gitcommands.txt: This will only remove the file from the staging area or remove the index
+
+git reset --hard : This command will remove from staging area as well as from your working directory
+
+git commit -m "message": This command will commit the staged snapshot into the local repository(Git repository)
+
+git log : it show all the commit points done on git repository
+
+git commit -a: This commits any files you have added with the git add command and also commits any files you have changed since then
+
+git reset [commit]: This command undoes all the commits after the specified commit and preserve the changes locally
+
+git reset --hard [commit] This command discards all history and goes back to the specified commit
+
+git rm [file] - It will remove file from your working directory
+
+git log --follow [filename] - This will list down version history for a specific file
+
+git show - Will tell you the audit of your git commands for the last commit
+
+git log --format=oneline
+
+git log --pretty=format:"%h%x09%an%x09%ad%x09%s"
+
+It shows the git log with shorter commit hash, author name, author date and subject
+
+git ls-files
+
+It show information about files in the index and the working tree
+
+ 
+
+git remote -v
+
+It will show all the remote repositories linked with local repository
+
+ 
+
+git remote add origin <githuburl without .git extension>
+
+It will create a link between local repository and remote repository with the alias name as "origin"
+
+ 
+
+git push origin master -f
+
+It will push the committed code of local repository to the remote repository mapped with the alias origin

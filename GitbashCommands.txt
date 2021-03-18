@@ -71,3 +71,59 @@ It will create a link between local repository and remote repository with the al
 git push origin master -f
 
 It will push the committed code of local repository to the remote repository mapped with the alias origin
+
+git branch
+
+It will show all the branches with current branch having prefix as *
+
+ 
+
+git branch <branchname>
+
+It will create the branch similar to master branch
+
+ 
+
+git checkout <branchname>
+
+It will switch your working directory to the checkout branchname
+
+ 
+
+git checkout -b <branchname>
+
+It will create a branch and switched the working directory pointer to new created branch
+
+ 
+
+git branch -d <branchname>
+
+It will delete the branchname
+
+ 
+
+git merge <branchname> : first you will checkout to master and then use the command git merge with a new branchname
+
+ 
+
+git clone <github url> : It will copy your repository to the local machine
+
+ 
+
+git fetch origin
+
+It only downloads new data from a remote repository , it doesn't integrate any of the new data into your working files
+
+ 
+
+git pull origin master
+
+It will update or replace your current head branch with the latest changes from the remote server. It also integrates it into your current working copy files.
+
+ 
+
+git archive master --format=zip --output=../metgitdemo.zip
+
+git branch -a  It will help to check all the branches include remote github available branches also
+
+git push -u origin2 test(new branch name) It will help to create the new branch in github
